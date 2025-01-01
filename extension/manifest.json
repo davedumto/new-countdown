@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "New Year Countdown",
+    "version": "1.0",
+    "description": "Countdown timer with celebration",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
